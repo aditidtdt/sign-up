@@ -1,3 +1,110 @@
+@font-face {
+  font-family: outfit;
+  src: url(Outfit-Regular.ttf);
+}
+
 body {
+  font-family: outfit, sans-serif;
+}
+
+#sign-up-form {
   display: flex;
+  margin: 2rem;
+  height: 90vh;
+  width: 80vw;
+  justify-self: center;
+  align-content: center;
+}
+
+.flowers {
+  position: relative;
+}
+.flowers > img {
+  height: 90vh;
+  width: 40vw;
+}
+
+.title {
+  position: absolute;
+  bottom: 90%;
+  font-size: 30px;
+  color: white;
+  left: 11%;
+}
+
+.credits {
+  position: absolute;
+  top: 90%;
+  font-size: 20px;
+  color: white;
+  left: 20%;
+}
+
+a {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 3rem;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.main > p {
+  font-size: 24px;
+}
+
+form {
+  display: table;
+  font-size: 22px;
+
+}
+
+form > div {
+  display: table-row;
+}
+
+label, input {
+  display: table-cell;
+}
+
+input {
+  width: 15vw;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+input:focus {
+  border: 2px solid pink;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+span {
+  color: white;
+}
+
+button {
+  margin: 20px 0;
+  padding: 8px 44px;
+  border-radius: 8px;
+}
+
+.logIn {
+  margin-top: 0;
+  font-size: 18px;
 }
